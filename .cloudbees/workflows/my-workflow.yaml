@@ -7,7 +7,7 @@ on:
       param1: 
         type: string
       param2: 
-        type: string
+        type: number
 
 jobs:
   build:
