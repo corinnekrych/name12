@@ -11,7 +11,6 @@ on:
       param3: 
         type: choice
         options: ["1", "2"]
-
 jobs:
   build:
     steps:
