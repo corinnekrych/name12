@@ -7,7 +7,8 @@ on:
       param1: 
         type: string
       param2: 
-        type: number
+        type: choice
+        options: ["1", "2"]
 
 jobs:
   build:
