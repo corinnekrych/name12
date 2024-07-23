@@ -8,6 +8,9 @@ on:
         type: string
       param2: 
         type: number
+      param3: 
+        type: choice
+        options: ["1", "2"]
 jobs:
   build:
     steps:
