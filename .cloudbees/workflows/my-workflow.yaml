@@ -4,13 +4,27 @@ name: My workflow
 on:
   workflow_dispatch:
     inputs:
-      param1: 
+      param1:
         type: string
-      param2: 
+      param2:
         type: number
-      param3: 
+      param3:
         type: choice
-        options: ["1", "2"]
+        options:
+          - "1"
+          - "2"
+      s4:
+        type: string
+      s5:
+        type: string
+      s6:
+        type: string
+      s7:
+        type: string
+      s8:
+        type: string
+      s10:
+        type: string
 jobs:
   build:
     steps:
